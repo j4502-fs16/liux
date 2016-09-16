@@ -1,0 +1,49 @@
+body{
+  background-color: #ebe3ce;
+}
+
+#container {
+  margin: 10px auto 10px auto;
+  width: 90%;
+  text-align: center;
+  color: black;
+  font-family: helvetica, Arial, non-serif;
+  font-size: 0.8em;
+  font-style: normal;
+}
+
+#weblinks li {
+  list-style-type: none;
+  float:left;
+  margin:0;
+  padding:0;
+  width: 25%;
+}
+
+#courselist li {
+  list-style-type: none;
+}
+
+#nav1 a:link, a:visited {
+  display: block;
+  color: #985fff;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  font-family: helvetica, Arial, sans-serif;
+}
+
+#nav2 a:link, a:visited {
+  display: block;
+  color: #98bf21;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  font-family: helvetica, Arial, sans-serif;
+}
+
+img {
+  border-style: none;
+}
