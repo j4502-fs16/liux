@@ -1,3 +1,12 @@
+p{
+  color: grey;
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1{
+  font-family: georgia, "times new roman", serif;
+}
+
 body{
   background-color: #ebe3ce;
 }
@@ -6,27 +15,38 @@ body{
   margin: 10px auto 10px auto;
   width: 90%;
   text-align: center;
-  color: black;
-  font-family: helvetica, Arial, non-serif;
-  font-size: 0.8em;
-  font-style: normal;
+  color: grey;
+}
+
+#weblinks {
+  padding: 0;
 }
 
 #weblinks li {
-  list-style-type: none;
-  float:left;
-  margin:0;
-  padding:0;
-  width: 25%;
+list-style-type: none; /*remove the bullets*/
+float:left;
+margin:0;
+padding:0;
+width: 25%;
 }
 
-#courselist li {
-  list-style-type: none;
-}
-
-#nav1 a:link, a:visited {
+#weblinks a:link, a:visited {
   display: block;
-  color: #985fff;
+  background-color: #ebe399;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none; /*no underline*/
+  padding: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#weblinks a:hover, a:active{
+  background-color: #7a991a;
+}
+
+#nav1  a:link, a:visited {
+  display: block;
+  color: #98bf21;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -34,7 +54,7 @@ body{
   font-family: helvetica, Arial, sans-serif;
 }
 
-#nav2 a:link, a:visited {
+#nav2  a:link, a:visited {
   display: block;
   color: #98bf21;
   font-weight: bold;
@@ -46,4 +66,12 @@ body{
 
 img {
   border-style: none;
+}
+
+#footer {
+  text-align: left;
+  color: black;
+  font-family: georgia, "times new roman", serif;
+  font-size: 0.8em;
+  border-top: 1px solid black;
 }
