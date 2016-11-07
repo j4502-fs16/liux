@@ -14,7 +14,7 @@ h1{
 #h1top{
   font-family: 'Playfair Display', serif;
   font-size: 50px;
-  font-style: none;
+  font-style: bold;
   font-weight: bolder;
   text-align: center;
 }
@@ -68,8 +68,7 @@ img {
     text-decoration: none;
     padding: 10px;
     color: white;
-    font-size:1em;
-    line-height:2em;
+    font-size:1.5em;
     text-align: center;
   }
 
@@ -230,7 +229,7 @@ flex-flow: row wrap;
   padding-top: 0;
 }
 .aside-1{
-  background: #ffffff;
+  background: #lightgrey;
   color: white;
   height: 240px;
 }
@@ -314,7 +313,7 @@ img{
   list-style-type: none;
   text-decoration:none;
   font-family: 'Raleway', sans-serif;
-  font-style: none;
+  font-style: bold;
 }
 
 #nav2 a:link{
